@@ -13,7 +13,7 @@ function App() {
   
 
   return (
-    <div className='container mx-auto lg:px-12 py-8 px-3 ' >
+    <div className='container mx-auto lg:px-8 py-8 px-3 ' >
     <Navbar></Navbar>
     <Hero></Hero>
     <Skills></Skills>

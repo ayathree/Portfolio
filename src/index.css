@@ -4,5 +4,10 @@
 
 
 body{
-    background-color: #fcdfe8;
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
   }
+
+  .card:hover .progress-bar {
+    background-color: #fbd786;
+    color: black;
+}

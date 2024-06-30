@@ -1,35 +1,184 @@
+import { FaCss3Alt, FaFigma, FaGit, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
+import '../index.css'
+import { IoLogoJavascript } from "react-icons/io";
+import { SiExpress, SiMongodb, SiVercel } from "react-icons/si";
+import { RiFirebaseFill, RiTailwindCssLine } from "react-icons/ri";
 
 
 const Skills = () => {
     return (
         <section className=" dark:bg-gray-100  dark:text-gray-800">
         <div className="container flex flex-col items-center p-4 mx-auto md:p-8">
-            <h1 className="text-3xl font-bold leading-none text-center sm:text-4xl mb-20">Skills</h1>
-           
-            <div className="flex flex-col w-full divide-y sm:flex-row sm:divide-y-0 sm:divide-x sm:px-8 lg:px-12 xl:px-32 divide-red-400 dark:divide-gray-300">
-                <div className="flex flex-col w-full divide-y divide-red-400 dark:divide-gray-300">
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400 p-4 sm:py-8 lg:py-12">CSS</a>
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400 p-4 sm:py-8 lg:py-12">HTML</a>
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400 p-4 sm:py-8 lg:py-12">JavaScript</a>
-                </div>
-                <div className="flex flex-col w-full divide-y divide-red-400 dark:divide-gray-300">
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400 p-4 sm:py-8 lg:py-12">React.js</a>
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400 p-4 sm:py-8 lg:py-12">Node.js</a>
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400 p-4 sm:py-8 lg:py-12">Express.js</a>
-                </div>
-                <div className=" w-full divide-y sm:flex-col sm:flex divide-red-400 dark:divide-gray-300">
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400  p-4 sm:py-8 lg:py-12">MongoDB</a>
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400 p-4 sm:py-8 lg:py-12">Next.js</a>
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400 p-4 sm:py-8 lg:py-12">Git</a>
-                </div>
-                <div className=" w-full divide-y sm:flex-col sm:flex divide-red-400 dark:divide-gray-300">
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400 p-4 sm:py-8 lg:py-12">Tailwind CSS</a>
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400 p-4 sm:py-8 lg:py-12">Firebase</a>
-                    <a rel="noopener noreferrer" className="flex items-center justify-center hover:bg-red-400 p-4 sm:py-8 lg:py-12">Figma</a>
-                </div>
-                
-            </div>
+            <h1 className="text-3xl font-bold leading-none text-center sm:text-4xl mb-20">Skills</h1>   
         </div>
+        
+
+<div className="grid lg:grid-cols-3 grid-cols-1 gap-5 items-center">
+    {/* skills div one */}
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <FaCss3Alt className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">CSS</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '95%' }}> 95%</div>
+  </div>
+
+      
+   </div>
+</div>
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <FaHtml5 className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">HTML</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '95%' }}> 95%</div>
+  </div>
+
+      
+   </div>
+</div>
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <IoLogoJavascript className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">JavaScript</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '90%' }}> 90%</div>
+  </div>
+
+      
+   </div>
+</div>
+{/* 2 */}
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <FaReact className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">ReactJS</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '88%' }}> 88%</div>
+  </div>
+
+      
+   </div>
+</div>
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <SiMongodb className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">MongoDB</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '88%' }}> 88%</div>
+  </div>
+
+      
+   </div>
+</div>
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <FaNodeJs className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">NodeJS</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '80%' }}> 80%</div>
+  </div>
+
+      
+   </div>
+</div>
+{/* 3 */}
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <SiExpress className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">ExpressJS</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '80%' }}> 80%</div>
+  </div>
+
+      
+   </div>
+</div>
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <RiFirebaseFill className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">Firebase</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '90%' }}> 90%</div>
+  </div>
+
+      
+   </div>
+</div>
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <FaFigma className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">Figma</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '90%' }}> 90%</div>
+  </div>
+
+      
+   </div>
+</div>
+{/* 4 */}
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <FaGit className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">Git</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '80%' }}> 80%</div>
+  </div>
+
+      
+   </div>
+</div>
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <SiVercel className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">Vercel</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '80%' }}> 80%</div>
+  </div>
+
+      
+   </div>
+</div>
+<div className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+   
+   <div className="flex flex-col items-center p-10">
+   <RiTailwindCssLine className="text-6xl " />
+       <h5 className="mb-1 text-xl font-medium ">Tailwind CSS</h5>
+      
+  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '90%' }}> 90%</div>
+  </div>
+
+      
+   </div>
+</div>
+
+
+
+</div>
+
     </section>
     );
 };

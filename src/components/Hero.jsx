@@ -1,4 +1,6 @@
-import image from '../assets/portfoio-removebg-preview.png'
+import { FaDownload } from 'react-icons/fa';
+import image from '../assets/portfolio2.jpg';
+import pdf from '../assets/resume.pdf';
 
 const Hero = () => {
     return (
@@ -18,6 +20,11 @@ const Hero = () => {
                 <br />
                 websites that users love
             </p>
+           
+            <a href={pdf} download>
+            <button className='btn btn-outline bg-red-400' >Download Resume<FaDownload /> </button>
+            </a>
+           
            
           </div>
         </div>
