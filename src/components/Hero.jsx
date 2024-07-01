@@ -1,6 +1,6 @@
 import { FaDownload } from 'react-icons/fa';
 import image from '../assets/portfolio2.jpg';
-import pdf from '../assets/resume.pdf';
+import pdf from '../assets/Nobanita Ayathree Resume .pdf';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import 'aos/dist/aos.css';
 import Aos from 'aos';
