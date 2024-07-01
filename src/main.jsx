@@ -6,12 +6,15 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+// import Skills from './components/Skills.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    
   },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
