@@ -18,11 +18,9 @@ const Hero = () => {
                 <br />
                 I am <span className='text-red-400'>Nobanita Ayathree</span>
             </h1>
-            <p className="py-6">I am a junior <span className='text-red-400 font-semibold text-xl'>front end developer </span>
+            <p className="py-6 font-bold">I am a junior <span className='text-red-400 font-bold text-2xl'>front end developer </span>passionate about building accessible websites that users love. 
                 <br />
-                passionate about building accessible  
-                <br />
-                websites that users love
+                Dedicated front end web developer with a solid foundation in HTML, CSS, and JavaScript, driven by a passion for creative problem-solving in web development projects. Adept at creating aesthetically pleasing and responsive websites with the use of contemporary frameworks like React. Love for creating seamless user experiences.
             </p>
            
            <div className='flex flex-row items-center gap-5'>
