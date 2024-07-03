@@ -13,7 +13,7 @@ const Skills = () => {
         </div>
         
 
-<div className="grid lg:grid-cols-3 grid-cols-1 gap-5 items-center">
+<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 items-center">
     {/* skills div one */}
 <div data-aos="fade-up" data-aos-duration="1000"  className="card w-full max-w-sm bg-[#fbd786] hover:bg-[#f7797d] hover:text-[#fbd786] hover:progress-[#fbd786] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
    

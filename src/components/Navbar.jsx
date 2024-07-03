@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className="navbar lg:px-10 fixed z-10 bg-opacity-10 bg-red-500 ">
   <div className="navbar-start">
-    <a className="hidden lg:block text-lg lg:text-xl font-bold ">Nobanita Ayathree</a>
+    <a className="hidden md:block lg:block text-lg lg:text-xl font-bold ">Nobanita Ayathree</a>
   </div>
   <div className="navbar-end">
     <div className="dropdown dropdown-end">
