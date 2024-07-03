@@ -21,9 +21,7 @@ const Skills = () => {
    <FaCss3Alt className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">CSS</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '95%' }}> 95%</div>
-  </div>
+  
 
       
    </div>
@@ -34,9 +32,7 @@ const Skills = () => {
    <FaHtml5 className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">HTML</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '95%' }}> 95%</div>
-  </div>
+  
 
       
    </div>
@@ -47,9 +43,7 @@ const Skills = () => {
    <IoLogoJavascript className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">JavaScript</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '90%' }}> 90%</div>
-  </div>
+  
 
       
    </div>
@@ -61,10 +55,7 @@ const Skills = () => {
    <FaReact className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">ReactJS</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '88%' }}> 88%</div>
-  </div>
-
+  
       
    </div>
 </div>
@@ -74,9 +65,7 @@ const Skills = () => {
    <SiMongodb className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">MongoDB</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '88%' }}> 88%</div>
-  </div>
+  
 
       
    </div>
@@ -87,10 +76,7 @@ const Skills = () => {
    <FaNodeJs className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">NodeJS</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '80%' }}> 80%</div>
-  </div>
-
+  
       
    </div>
 </div>
@@ -101,9 +87,7 @@ const Skills = () => {
    <SiExpress className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">ExpressJS</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '80%' }}> 80%</div>
-  </div>
+ 
 
       
    </div>
@@ -114,9 +98,7 @@ const Skills = () => {
    <RiFirebaseFill className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">Firebase</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '90%' }}> 90%</div>
-  </div>
+  
 
       
    </div>
@@ -127,9 +109,7 @@ const Skills = () => {
    <FaFigma className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">Figma</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '90%' }}> 90%</div>
-  </div>
+ 
 
       
    </div>
@@ -141,9 +121,7 @@ const Skills = () => {
    <FaGit className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">Git</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '80%' }}> 80%</div>
-  </div>
+  
 
       
    </div>
@@ -154,9 +132,7 @@ const Skills = () => {
    <SiVercel className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">Vercel</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '80%' }}> 80%</div>
-  </div>
+  
 
       
    </div>
@@ -167,9 +143,7 @@ const Skills = () => {
    <RiTailwindCssLine className="text-6xl " />
        <h5 className="mb-1 text-xl font-medium ">Tailwind CSS</h5>
       
-  <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div className="bg-gray-800 progress-bar text-xs font-medium text-white text-center p-0.5 leading-none rounded-full" style={{ width: '90%' }}> 90%</div>
-  </div>
+ 
 
       
    </div>
