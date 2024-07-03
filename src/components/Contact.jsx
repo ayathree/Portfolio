@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Form from "./Form";
 
 
@@ -6,7 +7,7 @@ const Contact = () => {
         <div id="contact">
             <h1 className="text-3xl font-bold leading-none text-center sm:text-4xl mt-20 ">Contact</h1>
             <section  className="py-6 dark:bg-gray-100 dark:text-gray-900">
-	<div data-aos="fade-up" data-aos-duration="1000" className="grid max-w-6xl grid-cols-1 px-6 p-20 mx-auto lg:px-8 md:grid-cols-2 md:divide-x border-2 border-red-400 rounded-xl">
+	<div data-aos="fade-up" data-aos-duration="1000" className="grid hover:bg-[#fbd786] max-w-6xl grid-cols-1 px-6 p-20 mx-auto lg:px-8 md:grid-cols-2 md:divide-x border-2 border-red-400 rounded-xl">
 		<div className="py-6 md:py-0 md:px-6 ">
 			<h1 className="text-4xl font-bold text-red-400">Get in touch</h1>
 			<p className="pt-2 pb-4 font-bold "> <span className="bg-red-400 p-1">Fill in the form to start a conversation</span></p>
@@ -29,6 +30,14 @@ const Contact = () => {
 						<path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
 					</svg>
 					<span>nobanitaayathree333@gmail.com</span>
+				</p>
+				<p className="flex gap-7 items-center">
+				<FaLinkedin />
+					<a href="https://www.linkedin.com/in/nobanitaayathree/" className="underline">in/nobanitaayathree</a>
+				</p>
+				<p className="flex gap-7 items-center">
+				<FaGithub />
+					<a href="https://github.com/ayathree" className="underline">github.com/ayathree</a>
 				</p>
 			</div>
 		</div>

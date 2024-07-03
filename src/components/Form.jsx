@@ -1,8 +1,16 @@
-
+import { useState } from 'react';
 
 const Form = () => {
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
     const onSubmit = async (event) => {
         event.preventDefault();
+        if (!email || !message) {
+            alert('Please enter a valid email and message');
+            return;
+        }
+
         const form = event.target;
         const formData = new FormData(form);
 
@@ -26,6 +34,8 @@ const Form = () => {
                 form.reset();
                 // Optionally, display a success message to the user
                 alert("Your message has been sent successfully!");
+                setEmail('');
+                setMessage('');
             } else {
                 console.log("Error", res);
                 // Optionally, display an error message to the user
@@ -43,11 +53,27 @@ const Form = () => {
             <form onSubmit={onSubmit} noValidate className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
                 <label className="block">
                     <span className="mb-1 text-red-400 font-bold">Email address</span>
-                    <input type="email" name="email" placeholder="Your email" className="block w-full p-2 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" required />
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Your email"
+                        className="block w-full p-2 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                    />
                 </label>
                 <label className="block">
                     <span className="mb-1 text-red-400 font-bold">Message</span>
-                    <textarea rows="3" name="message" placeholder="Your message" className="block w-full p-2 rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100" required></textarea>
+                    <textarea
+                        rows="3"
+                        name="message"
+                        placeholder="Your message"
+                        className="block w-full p-2 rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                        required
+                    ></textarea>
                 </label>
                 <button type="submit" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-red-400 dark:bg-violet-600 dark:text-gray-50 focus:dark:ring-violet-600 hover:dark:ring-violet-600 font-bold">Submit</button>
             </form>
