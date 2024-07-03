@@ -15,11 +15,11 @@ const Navbar = () => {
       <div tabIndex={0} role="button" className="">
         <div className="indicator flex flex-row gap-4">
         <ScrollLink to="home" smooth={true} duration={500}><a className="text-white lg:font-bold">Myself</a></ScrollLink>
-        <ScrollLink to="skill" smooth={true} duration={500}><a className="text-white lg:font-bold">skills</a></ScrollLink>
-        <ScrollLink to="project" smooth={true} duration={500}><a className="text-white lg:font-bold">projects</a></ScrollLink>
+        <ScrollLink to="skill" smooth={true} duration={500}><a className="text-white lg:font-bold">Skills</a></ScrollLink>
+        <ScrollLink to="project" smooth={true} duration={500}><a className="text-white lg:font-bold">Projects</a></ScrollLink>
           
          <ScrollLink to="resume" smooth={true} duration={500}> <a className="text-white lg:font-bold">Resume</a></ScrollLink>
-          <ScrollLink to="contact" smooth={true} duration={500}><a className="text-white lg:font-bold">contact</a></ScrollLink>
+          <ScrollLink to="contact" smooth={true} duration={500}><a className="text-white lg:font-bold">Contact</a></ScrollLink>
           
 
         </div>
